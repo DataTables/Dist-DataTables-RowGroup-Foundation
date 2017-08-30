@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowgroup-zf",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "RowGroup for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/rowGroup.foundation.css"
@@ -21,8 +21,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net-zf": ">=1.10.13",
-        "datatables.net-rowgroup": ">=1.0.0"
+        "datatables.net-zf": "^1.10.15",
+        "datatables.net-rowgroup": "1.0.1"
     },
     "style": "css/rowGroup.foundation.css"
 }
