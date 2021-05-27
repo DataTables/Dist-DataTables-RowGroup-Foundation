@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-rowgroup-zf</id>
-    <version>1.1.2</version>
-    <description>RowGroup for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>rowgroup DataTables jQuery table Foundation</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-RowGroup-Foundation.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-rowgroup" version="1.1.2"/>
-      <dependency id="foundation" version="5.0.0"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/rowgroup.foundation.js" target="content\Scripts"/>
-    <file src="js/rowgroup.foundation.min.js" target="content\Scripts"/>
-    <file src="css/rowgroup.foundation.css" target="content\Content"/>
-    <file src="css/rowgroup.foundation.min.css" target="content\Content"/>
-    <file src="js/rowgroup.foundation.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/rowgroup.foundation.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/rowgroup.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/rowgroup.foundation.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.1.2</version>
+        <id>datatables.net-rowgroup-zf</id>
+        <description>This is RowGroup for DataTables with styling for [Foundation](https://get.foundation/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-RowGroup-Foundation.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>RowGroup  Row Grouping  Foundation  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-rowgroup" version=">=1.1.2"/>
+            <dependency id="datatables.net-zf" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/rowGroup.foundation.js" target="content\Scripts"/>
+        <file src="js/rowGroup.foundation.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/rowGroup.foundation.min.js" target="content\Scripts"/>
+        <file src="js/rowGroup.foundation.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/rowGroup.foundation.css" target="content\Content"/>
+        <file src="css/rowGroup.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/rowGroup.foundation.min.css" target="content\Content"/>
+        <file src="css/rowGroup.foundation.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/rowGroup.foundation.d.ts" target="content\Scripts"/>
+        <file src="types/rowGroup.foundation.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+

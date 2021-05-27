@@ -1,6 +1,6 @@
-# RowGroup for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)
+# RowGroup for DataTables with styling for [Foundation](https://get.foundation/)
 
-This package contains distribution files required to style [RowGroup extension](https://datatables.net/extensions/rowgroup) for [DataTables](https://datatables.net/) with styling for [Zurb Foundation](http://foundation.zurb.com/).
+This package contains a built distribution of the [RowGroup extension](https://datatables.net/extensions/RowGroup) for [DataTables](https://datatables.net/) with styling for [Foundation](https://get.foundation/).
 
 RowGroup adds the ability to easily group rows in a DataTable by a given data point. The grouping is shown as an inserted row either before or after the group.
 
@@ -19,7 +19,7 @@ npm install datatables.net-rowgroup-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-rowgroup-zf' )( $ );
+var dt = require( 'datatables.net-rowgroup-zf}' )( window, $ );
 ```
 
 ### bower
@@ -32,7 +32,7 @@ bower install --save datatables.net-rowgroup-zf
 
 ## Documentation
 
-Full documentation of the DataTables options, API and plug-in interface are available on the DOCS_LINK. The site also contains information on the wide variety of plug-ins that are available for DataTables, which can be used to enhance and customise your table even further.
+Full documentation and examples for RowGroup can be found [on the website](https://datatables.net/extensions/rowgroup).
 
 
 ## Bug / Support
@@ -48,3 +48,4 @@ If you are thinking of contributing code to DataTables, first of all, thank you!
 ## License
 
 This software is released under the [MIT license](//datatables.net/license). You are free to use, modify and distribute this software, but all copyright information must remain.
+
