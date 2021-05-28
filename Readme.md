@@ -19,7 +19,7 @@ npm install datatables.net-rowgroup-zf
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-rowgroup-zf}' )( window, $ );
+var dt = require( 'datatables.net-rowgroup-zf' )( window, $ );
 ```
 
 ### bower
