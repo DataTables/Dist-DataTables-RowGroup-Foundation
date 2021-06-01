@@ -3,6 +3,7 @@
     "description": "RowGroup for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/rowGroup.foundation.js",
     "style": "css/rowGroup.foundation.css",
+    "types": "./types/rowGroup.foundation.d.ts",
     "version": "1.1.2",
     "files": [
         "css/**/*.css",
