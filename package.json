@@ -4,7 +4,7 @@
     "main": "js/rowGroup.foundation.js",
     "style": "css/rowGroup.foundation.css",
     "types": "./types/rowGroup.foundation.d.ts",
-    "version": "1.1.4",
+    "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowgroup": ">=1.1.4",
-        "datatables.net-zf": ">=1.11.5",
+        "datatables.net-rowgroup": ">=1.2.0",
+        "datatables.net-zf": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
