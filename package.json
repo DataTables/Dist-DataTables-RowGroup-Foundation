@@ -2,12 +2,14 @@
     "name": "datatables.net-rowgroup-zf",
     "description": "RowGroup for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/rowGroup.foundation.js",
+    "module": "js/rowGroup.foundation.mjs",
     "style": "css/rowGroup.foundation.css",
     "types": "./types/rowGroup.foundation.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
