@@ -10,7 +10,8 @@
         "css/rowGroup.foundation.min.css"
     ],
     "types": [
-        "types/rowGroup.foundation.d.ts"
+        "types/rowGroup.foundation.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/RowGroup",
     "last-tag": "1.2.0"

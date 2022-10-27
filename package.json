@@ -4,7 +4,7 @@
     "main": "js/rowGroup.foundation.js",
     "module": "js/rowGroup.foundation.mjs",
     "style": "css/rowGroup.foundation.css",
-    "types": "./types/rowGroup.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
