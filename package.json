@@ -5,7 +5,7 @@
     "module": "js/rowGroup.foundation.mjs",
     "style": "css/rowGroup.foundation.css",
     "types": "./types/types.d.ts",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "RowGroup",
- "Row Grouping",
+        "Row Grouping",
         "Foundation",
         "Datatables",
         "jQuery",
