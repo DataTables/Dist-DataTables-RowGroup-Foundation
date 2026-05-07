@@ -1,4 +1,4 @@
-/*! Foundation styling wrapper for RowGroup
- * © SpryMedia Ltd - datatables.net/license
+/*! RowGroup Foundation styling 2.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
-import jQuery from"jquery";import DataTable from"datatables.net-zf";import RowGroup from"datatables.net-rowgroup";let $=jQuery;export default DataTable;
+import DataTable from"datatables.net-zf";import RowGroup from"datatables.net-rowgroup";export default DataTable;
