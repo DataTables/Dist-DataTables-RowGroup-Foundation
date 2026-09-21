@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-rowgroup-zf",
-    "description": "RowGroup for DataTables with styling for [Foundation](https://get.foundation/)",
+    "description": "RowGroup for DataTables with styling for Foundation",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-RowGroup-Foundation"

@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowgroup-zf",
     "description": "RowGroup for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/rowGroup.foundation.js",
-    "module": "js/rowGroup.foundation.mjs",
-    "style": "css/rowGroup.foundation.css",
+    "main": "./js/rowGroup.foundation.js",
+    "module": "./js/rowGroup.foundation.mjs",
+    "style": "./css/rowGroup.foundation.css",
     "types": "./types/rowGroup.foundation.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowGroup",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowGroup.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowGroup.foundation.d.ts",
+            "import": "./js/rowGroup.foundation.mjs",
+            "default": "./js/rowGroup.foundation.mjs",
+            "require": "./js/rowGroup.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowGroup.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
