@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/rowGroup.foundation.d.ts",
+            "style": "./css/rowGroup.foundation.css",
             "import": "./js/rowGroup.foundation.mjs",
-            "default": "./js/rowGroup.foundation.mjs",
-            "require": "./js/rowGroup.foundation.js"
+            "require": "./js/rowGroup.foundation.js",
+            "default": "./js/rowGroup.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
